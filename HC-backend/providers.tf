@@ -9,6 +9,6 @@ terraform {
 
 provider "volterra" {
   timeout      = "90s"
-  api_p12_file = "./f5-consult.console.ves.volterra.io.api-creds.p12"
-  url          = "https://f5-consult.console.ves.volterra.io/api"
+  api_p12_file = "./mycertp12"
+  url          = "https://mytenant.console.ves.volterra.io/api"
 }
