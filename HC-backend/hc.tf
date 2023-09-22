@@ -1,6 +1,6 @@
 resource "volterra_healthcheck" "volterra_health_check" {
-  name      = "p-kuligowski-crawford-hc-1"
-  namespace = "default"
+  name      = "hc-1"
+  namespace = "sandbox"
 
   http_health_check {
     use_origin_server_name = true
