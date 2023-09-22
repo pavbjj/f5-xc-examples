@@ -1,5 +1,5 @@
 resource "volterra_healthcheck" "volterra_health_check" {
-  name      = "p-kuligowski-crawford-hc-1"
+  name      = "hc-1"
   namespace = "sandbox"
 
   http_health_check {
